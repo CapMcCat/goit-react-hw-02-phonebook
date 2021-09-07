@@ -6,11 +6,6 @@ import { v4 as uuidv4 } from 'uuid';
 import s from './App.module.css';
 
 class App extends Component {
-  static defaultProps = {
-    contacts: [],
-    filter: '',
-  };
-
   state = {
     contacts: [
       { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
